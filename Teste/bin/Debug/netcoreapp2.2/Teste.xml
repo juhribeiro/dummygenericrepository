@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Teste</name>
+    </assembly>
+    <members>
+        <member name="M:Teste.Controllers.CategoriesController.GetAsync">
+            <summary>
+            bla teste de escrita
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

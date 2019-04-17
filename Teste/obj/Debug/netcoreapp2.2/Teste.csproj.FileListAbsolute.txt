@@ -1,0 +1,16 @@
+C:\Users\Juliane\Documents\Projects\testgenericrepository\Teste\bin\Debug\netcoreapp2.2\Teste.deps.json
+C:\Users\Juliane\Documents\Projects\testgenericrepository\Teste\bin\Debug\netcoreapp2.2\Teste.runtimeconfig.json
+C:\Users\Juliane\Documents\Projects\testgenericrepository\Teste\bin\Debug\netcoreapp2.2\Teste.runtimeconfig.dev.json
+C:\Users\Juliane\Documents\Projects\testgenericrepository\Teste\bin\Debug\netcoreapp2.2\Teste.dll
+C:\Users\Juliane\Documents\Projects\testgenericrepository\Teste\bin\Debug\netcoreapp2.2\Teste.pdb
+C:\Users\Juliane\Documents\Projects\testgenericrepository\Teste\obj\Debug\netcoreapp2.2\Teste.csprojAssemblyReference.cache
+C:\Users\Juliane\Documents\Projects\testgenericrepository\Teste\obj\Debug\netcoreapp2.2\Teste.csproj.CoreCompileInputs.cache
+C:\Users\Juliane\Documents\Projects\testgenericrepository\Teste\obj\Debug\netcoreapp2.2\Teste.RazorAssemblyInfo.cache
+C:\Users\Juliane\Documents\Projects\testgenericrepository\Teste\obj\Debug\netcoreapp2.2\Teste.RazorAssemblyInfo.cs
+C:\Users\Juliane\Documents\Projects\testgenericrepository\Teste\obj\Debug\netcoreapp2.2\Teste.AssemblyInfoInputs.cache
+C:\Users\Juliane\Documents\Projects\testgenericrepository\Teste\obj\Debug\netcoreapp2.2\Teste.AssemblyInfo.cs
+C:\Users\Juliane\Documents\Projects\testgenericrepository\Teste\obj\Debug\netcoreapp2.2\Teste.RazorTargetAssemblyInfo.cache
+C:\Users\Juliane\Documents\Projects\testgenericrepository\Teste\obj\Debug\netcoreapp2.2\Teste.dll
+C:\Users\Juliane\Documents\Projects\testgenericrepository\Teste\obj\Debug\netcoreapp2.2\Teste.pdb
+c:\Users\Juliane\Documents\Projects\testgenericrepository\Teste\bin\Debug\netcoreapp2.2\Teste.xml
+c:\Users\Juliane\Documents\Projects\testgenericrepository\Teste\obj\Debug\netcoreapp2.2\Teste.xml
