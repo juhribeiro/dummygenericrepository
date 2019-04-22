@@ -10,7 +10,7 @@ using Teste.Services.Base;
 
 namespace Teste.Services
 {
-    public class CategoryService : BaseService, ICategoryService
+    public class CategoryService : BaseService<CategoryEntity>, ICategoryService
     {
         public CategoryService(IMapper mapper, ICategoryRepository repository) : base(mapper, repository)
         {
@@ -19,7 +19,7 @@ namespace Teste.Services
         public async Task<Category> AddAsync(Category model)
         {
             var category = _mapper.Map<CategoryEntity>(model);
-            var entity = await this._repository.AddAsync<CategoryEntity>(category);
+            var entity = await this._repository.AddAsync(category);
             var categorymodel = _mapper.Map<Category>(entity);
             return categorymodel;
         }
@@ -36,7 +36,7 @@ namespace Teste.Services
 
         public async Task<List<Category>> ListAsync()
         {
-            var entities = await this._repository.ListAsync<CategoryEntity>();
+            var entities = await this._repository.ListAsync();
             var categories = _mapper.Map<List<Category>>(entities);
             return categories;
         }
