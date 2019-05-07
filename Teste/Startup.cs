@@ -18,6 +18,7 @@ using Swashbuckle.AspNetCore.Swagger;
 using Swashbuckle.AspNetCore.SwaggerUI;
 using Teste.Contracts;
 using Teste.Data;
+using Teste.Models.Mapping;
 using Teste.Repository;
 using Teste.Repository.Base;
 using Teste.Services;
@@ -69,6 +70,7 @@ namespace Teste
                 c.IncludeXmlComments(xmlPath);
             });
 
+            AutoMapperConfiguration.Configure();
             services.AddAutoMapper();
 
         }

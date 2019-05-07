@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using AutoMapper;
@@ -10,7 +11,7 @@ using Teste.Services.Base;
 
 namespace Teste.Services
 {
-    public class CategoryService : BaseService<CategoryEntity>, ICategoryService
+    public class CategoryService : BaseService<CategoryEntity, Category>, ICategoryService
     {
         public CategoryService(IMapper mapper, ICategoryRepository repository) : base(mapper, repository)
         {
@@ -20,8 +21,7 @@ namespace Teste.Services
         {
             var category = _mapper.Map<CategoryEntity>(model);
             var entity = await this._repository.AddAsync(category);
-            var categorymodel = _mapper.Map<Category>(entity);
-            return categorymodel;
+            return entity;
         }
 
         public Task DeleteAsync(int id)
@@ -37,8 +37,7 @@ namespace Teste.Services
         public async Task<List<Category>> ListAsync()
         {
             var entities = await this._repository.ListAsync();
-            var categories = _mapper.Map<List<Category>>(entities);
-            return categories;
+            return entities;
         }
 
         public Task UpdateAsync(int id, Category entity)

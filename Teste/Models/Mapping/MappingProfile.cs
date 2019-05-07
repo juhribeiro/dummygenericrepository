@@ -3,9 +3,9 @@ using Teste.Data;
 
 namespace Teste.Models.Mapping
 {
-    public class ModelToResourceProfile : Profile
+    public class MappingProfile : Profile
     {
-        public ModelToResourceProfile()
+        public MappingProfile()
         {
             this.ViceVersa<Category, CategoryEntity>();
         }
